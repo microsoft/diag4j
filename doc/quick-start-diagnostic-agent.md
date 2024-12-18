@@ -20,9 +20,8 @@ It's useful when locate the performance bottleneck of the Java application.
 
 ## How to use Intellij Idea plugin
 ### [Prerequisites](#prerequisites)
-  - download the Intellij Idea [plugin](https://github.com/microsoft/diag4j/releases) and install locally
-    
-  - ![install-plugin-locally.png](images/plugin/install-plugin-locally.png)
+  - download the Intellij Idea [plugin](https://github.com/microsoft/diag4j/releases) and install it locally through Settings > Plugins > Install Plugin from Disk.
+  ![install-plugin-locally.png](images/plugin/install-plugin-locally.png)
   - java applications to troubleshoot with. If you need help to deploy your Java application to AKS, please refer to this guide to deploy a sample Java app to your AKS: [Deploy an app on AKS](deploy-app.md)
 
 ### Agent Overview Dashboard
