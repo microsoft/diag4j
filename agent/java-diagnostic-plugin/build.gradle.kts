@@ -49,6 +49,10 @@ intellijPlatform {
         sinceBuild = providers.gradleProperty("pluginSinceBuild")
         untilBuild = provider { null }
     }
+
+    productDescriptor {
+        eap = true
+    }
   }
 
   publishing {
@@ -58,7 +62,7 @@ intellijPlatform {
 
   pluginVerification {
     ides {
-      ide(IntelliJPlatformType.IntellijIdeaUltimate, ideaVersion)
+      ide(IntelliJPlatformType.IntellijIdeaCommunity, ideaVersion)
     }
     freeArgs = listOf(
       "-mute",
@@ -77,8 +81,6 @@ tasks {
 //    kotlinOptions.jvmTarget = "17"
 //  }
 
-  runIde {
-  }
   publishPlugin {
     token.set(System.getenv("PUBLISH_TOKEN"))
   }

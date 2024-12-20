@@ -28,7 +28,7 @@
       <toolWindow id="Diagnostic"
                   anchor="right"
                   factoryClass="com.microsoft.azure.agent.plugin.agent.MyToolWindowFactory"
-                  icon="/META-INF/pluginIcon.svg"/>
+                  icon="/META-INF/pluginIcon1.svg"/>
   </extensions>
   <actions>
       <action id="addAroundLog"
