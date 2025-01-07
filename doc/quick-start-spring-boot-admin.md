@@ -29,6 +29,8 @@ Before starting, ensure the following prerequisites are met:
     helm install diag4j diag4j-repo/diag4j --version 1.1.5 -n <namespace> --create-namespace
     ```
 
+>  **Note:** If you need help to deploy your Java application to AKS, please refer to this guide to deploy a sample Java app to your AKS: [Deploy an app on AKS](deploy-app.md)
+
 ### Step 2: Create a Spring Boot Admin component
 
 1. Apply the following CR to create a Spring Boot Admin component:
